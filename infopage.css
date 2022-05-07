@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.info {
+    background: #800080;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+#coming-soon {
+    margin-top: 150px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(rgb(147, 14, 173),#0db824);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align-last: transparent;
+}
+
+a.botton {
+    color: rgb(218, 218, 218); /* colore del testo */
+    text-decoration: none; /* eliminare la sottolineatura del testo */
+    background: rgb(52, 106, 223); /* sfondo del bottone */
+    padding: .7em 1.5em; /* padding dal testo dal bordo del bottone */
+    outline: none; /*  eliminare bordo*/
+    border-radius: 40px;
+  }
+  a.botton:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
+  a.botton:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */

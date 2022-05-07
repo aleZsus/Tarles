@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp2757834.gif);
+   
+}
+
+#title {
+    font-size: 60px;
+    margin-top: 220px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(#000,#00F5FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align-last: transparent;
+}
+
+a.botton {
+    color: rgb(218, 218, 218); /* colore del testo */
+    text-decoration: none; /* eliminare la sottolineatura del testo */
+    background: rgb(52, 106, 223); /* sfondo del bottone */
+    padding: .7em 1.5em; /* padding dal testo dal bordo del bottone */
+    outline: none; /*  eliminare bordo*/
+    border-radius: 40px;
+  }
+  a.botton:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
+  a.botton:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */
+
+#general {
+    text-align: center;
+}
