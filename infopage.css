@@ -7,23 +7,19 @@ body {
     background-size: cover;
 }
 
-.info {
-    background: #800080;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-}
 
 
-#coming-soon {
+
+#gen {
     margin-top: 150px;
     font-size: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(rgb(147, 14, 173),#0db824);
+    background: linear-gradient(rgb(13, 25, 194),#022507);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-align-last: transparent;
+    text-align: center;
 }
 
 a.botton {
@@ -36,3 +32,22 @@ a.botton {
   }
   a.botton:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
   a.botton:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */
+
+.owner1 {
+    text-align: center;
+    margin-left: 560px;
+    margin-right: 560px;
+    background-color: indigo;
+}
+
+a.botton {
+    color: rgb(218, 218, 218); /* colore del testo */
+    text-decoration: none; /* eliminare la sottolineatura del testo */
+    background: rgb(52, 106, 223); /* sfondo del bottone */
+    padding: .7em 1.5em; /* padding dal testo dal bordo del bottone */
+    outline: none; /*  eliminare bordo*/
+    border-radius: 40px;
+  }
+  a.botton:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
+  a.botton:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */
+
