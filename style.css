@@ -15,7 +15,7 @@ body {
     text-align-last: transparent;
 }
 
-a.botton {
+a.owners {
     color: rgb(218, 218, 218); /* colore del testo */
     text-decoration: none; /* eliminare la sottolineatura del testo */
     background: rgb(52, 106, 223); /* sfondo del bottone */
@@ -23,8 +23,19 @@ a.botton {
     outline: none; /*  eliminare bordo*/
     border-radius: 40px;
   }
-  a.botton:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
-  a.botton:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */
+  a.owners:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
+  a.owners:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */
+
+a.game {
+    color: rgb(218, 218, 218); /* colore del testo */
+    text-decoration: none; /* eliminare la sottolineatura del testo */
+    background: rgb(52, 106, 223); /* sfondo del bottone */
+    padding: .7em 1.5em; /* padding dal testo dal bordo del bottone */
+    outline: none; /*  eliminare bordo*/
+    border-radius: 40px;
+  }
+  a.game:hover { background: rgb(6, 4, 131); } /* cambio dello sfondo al passagio del mouse */
+  a.game:active { background: rgb(152,15,0); } /* cambiare lo sfondo al premere bottone   */
 
 #general {
     text-align: center;
